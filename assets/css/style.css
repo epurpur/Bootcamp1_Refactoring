@@ -1,4 +1,6 @@
-/* Global Elements */
+
+
+/*********** Global Elements ***********/
 
 * {
     box-sizing: border-box;
@@ -6,28 +8,28 @@
     margin: 0;
 }
 
-/*  Main body of document */
+/*********** <body> ***********/
 
 body {
     background-color: #d9dcd6;
 }
 
-    /* Navigation Bar */
+    /*********** <nav> ***********/
 
     nav {
         padding: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: #2a607c;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: #ffffff;
     }
 
-    h1 {
+    .logo {
         display: inline-block;
         font-size: 48px;
     }
 
     /* This styles 'seo' of 'Horiseon' in Nav Bar */
-    nav h1 .seo {
+    .seo {
         color: #d9dcd6;
     }
 
@@ -58,7 +60,7 @@ body {
     }
 
 
-    /*     MAIN ELEMENTS     */
+    /*********** <main> ***********/
 
     /* Main Image */
 
@@ -138,7 +140,7 @@ body {
         }
 
 
-/* Footer */
+/*********** <footer> ***********/
 
 .footer {
     padding: 30px;
